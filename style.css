@@ -102,7 +102,7 @@ border: 1px solid #d0d0d0;
     background-image: url(src/leaves.jpg);
     background-size: cover;
     background-position: center; 
-    padding: 8em;
+    padding: 8em 0;
     position: relative;
     isolation: isolate;
 }
