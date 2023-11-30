@@ -10,7 +10,9 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Courier New', Courier, monospace;
+    /*font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', monospace;*/
+    font-family: 'Space Mono', monospace;
 }
 header{
     background-color: rgb(48, 48, 46);
