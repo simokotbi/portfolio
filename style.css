@@ -124,7 +124,7 @@ input:focus
 }
 .search	i {
 	position: absolute;
-	width: 1px;
+	width: 4px;
 	height: 80%;
 	background-color: white;
 	left: 4em;
