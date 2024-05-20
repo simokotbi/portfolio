@@ -2,6 +2,7 @@
 :root{
     --color-black:#121619;
     --color-gray:#8A897C;
+    --color-white:#fff;
 }
 
 *{
@@ -23,6 +24,7 @@ header{
 a{
     list-style: none;
     text-decoration: none;
+    color: var(--color-white);
 }
 p,h1{
     letter-spacing: .3px;
@@ -94,8 +96,12 @@ product-card{
 }
 
 .products-section{
+    padding: 4em 0px;
     background-color: #F7FFF7;
 }
+.test {
+    background-color: yellow;
+  }
 .btn{
 margin: 1em 1em 1em 0;
 padding: .8em 2em;
