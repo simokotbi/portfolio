@@ -105,7 +105,44 @@ product-card{
     padding: 4em 0px;
     background-color: #F7FFF7;
 }
+input:focus
+{
+    border: 1px solid #e2e7e2;
+    box-shadow: 0 0 3px #c4cbd1;
+    outline-offset: 0px;
+    outline: none;
+}
+.search input{
+    color: white;
+    background: none;
+    border: none;
+    width: fit-content;
+    padding: .5em 0;
+}
+.search {
+	position: relative;
+}
+.search	i {
+	position: absolute;
+	width: 1px;
+	height: 80%;
+	background-color: white;
+	left: 4em;
+	top: 10%;
+	animation-name: blink;
+	animation-duration: 800ms;
+	animation-iteration-count: infinite;
+	opacity: 1;
+}
 
+.search input:focus + i {
+	display: none;
+}
+
+@keyframes blink {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
 .btn{
 margin: 1em 1em 1em 0;
 padding: .8em 2em;
