@@ -114,7 +114,7 @@ input:focus
 }
 .search input{
     color: white;
-    background: none;
+    background: transparent;
     border: none;
     width: fit-content;
     padding: .5em 0;
