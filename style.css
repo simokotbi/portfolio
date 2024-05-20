@@ -128,7 +128,7 @@ border: 1px solid #d0d0d0;
 }
 
 .about-text{
-    text-align: center;
+    text-align: start;
 } 
 .col-text{
     margin: 1em 0;  
