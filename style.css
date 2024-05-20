@@ -83,6 +83,19 @@ h3{
     background-position: center;
     width: 100%;
 }
+.product-card img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+product-card{
+   padding-right: 2em;
+}
+
+.products-section{
+    background-color: #F7FFF7;
+}
 .btn{
 margin: 1em 1em 1em 0;
 padding: .8em 2em;
@@ -111,7 +124,7 @@ border: 1px solid #d0d0d0;
 .about-text{
     text-align: center;
 } 
-.features-text{
+.col-text{
     margin: 1em 0;  
     padding: 2em 0;
 }
@@ -187,6 +200,9 @@ border: 1px solid #d0d0d0;
 @media (min-width: 725px) {
   .col--1-3 {
     flex-basis: 33.3333%; }
+    .products-section .col--1-3{
+        padding: 2em 2em 2em 0;
+    }
   .col--2-3 {
     flex-basis: 66.6666%; }
   .col--1-2 {
