@@ -8,3 +8,8 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+function toggleMenu() {
+  const menuContainer = document.querySelector('.nav-menu-items-container');
+  menuContainer.classList.toggle('open');
+}

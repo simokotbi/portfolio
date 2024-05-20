@@ -40,6 +40,7 @@ h3{
 .nav-menu{
    color: white;
     justify-content: space-between;
+    align-items: center;
 }
 .nav-menu-items{
     align-items: center;
@@ -58,6 +59,11 @@ h3{
     height: 1px;
     border-bottom: 2px solid white;
     bottom: -6px;
+}
+.hamburger-menu {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
 }
 .d-flex{
     display: flex;
@@ -99,9 +105,7 @@ product-card{
     padding: 4em 0px;
     background-color: #F7FFF7;
 }
-.test {
-    background-color: yellow;
-  }
+
 .btn{
 margin: 1em 1em 1em 0;
 padding: .8em 2em;
@@ -177,6 +181,13 @@ border: 1px solid #d0d0d0;
     z-index: -1;
     opacity: .3;
 }
+.input input{
+     border: none;
+     border-bottom: 0.5px solid #e7e7e4;
+     width: 50%;
+     padding: 1em 0;
+
+}
 .a-center{
     align-items: center;
 }
@@ -213,3 +224,39 @@ border: 1px solid #d0d0d0;
     flex-basis: 66.6666%; }
   .col--1-2 {
     flex-basis: 50%; } }
+
+
+    /* //nav menue styles */
+    @media (max-width: 768px) {
+        .nav-menu {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .hamburger-menu {
+            display: block;
+        }
+    
+        .nav-menu-items-container {
+            display: none;
+            width: 100%;
+        }
+    
+        .nav-menu-items {
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        .nav-item {
+            width: 100%;
+            text-align: left;
+        }
+    
+        .search {
+            margin-top: 1em;
+        }
+    }
+    
+    .nav-menu-items-container.open {
+        display: block;
+    }
