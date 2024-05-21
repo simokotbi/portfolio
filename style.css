@@ -144,6 +144,7 @@ input:focus
     border: none;
     width: fit-content;
     padding: .5em 0;
+    font-size: 1em;
 }
 .search {
 	position: relative;
@@ -198,7 +199,7 @@ input:focus
 margin: 1em 1em 1em 0;
 padding: .8em 2em;
 font-size: 1em;
-font-weight: 400;
+font-weight: 600;
 cursor: pointer;
 }
 .btn-primary{
