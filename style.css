@@ -347,12 +347,12 @@ border: 1px solid #d0d0d0;
         }
     
         .nav-menu-items-container {
-            display: none;
+            display: block;
             width: 100%;
             /* height: 100%; */
-            height: 0;
+            max-height: 0;
             overflow: hidden;
-            transition: height 2s ease;
+            transition: max-height 0.3s ease;
         }
     
         .nav-menu-items {
@@ -372,6 +372,7 @@ border: 1px solid #d0d0d0;
     }
     
     .nav-menu-items-container.open {
-        display: block;
+        /* display: block; */
+        max-height: 200px;
         height: auto;
     }
