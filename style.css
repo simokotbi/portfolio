@@ -282,6 +282,17 @@ border: 1px solid #d0d0d0;
      padding: 1em 0;
 
 }
+.more-text {
+    display: none; 
+  }
+  .dots,.show-less{
+    cursor:pointer;
+  }
+  .show-less{
+    font-size: .8em;
+    font-weight: 500;
+  }
+
 .a-center{
     align-items: center;
 }

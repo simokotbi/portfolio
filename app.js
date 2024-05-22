@@ -27,3 +27,27 @@ window.onscroll = function() {
 document.getElementById('backToTop').onclick = function() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
+
+function toggleMoreText(){
+   var moreText = document.querySelector('.more-text');
+  var showLess = document.querySelector('.show-less');
+   var dots = document.querySelector('.dots');
+  // Toggle visibility
+  if (moreText.style.display === 'block') {
+    moreText.style.display = 'none';
+    showLess.style.display = 'none';
+    dots.style.display = 'inline';
+  } else {
+    moreText.style.display = 'block';
+    showLess.style.display = 'inline';
+    dots.style.display = 'none';
+  }
+}
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var dots = document.querySelector('.dots');
+  var showLess = document.querySelector('.show-less');
+  dots.addEventListener('click', toggleMoreText);
+  showLess.addEventListener('click', toggleMoreText);
+});
+ 
