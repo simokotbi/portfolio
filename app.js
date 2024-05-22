@@ -14,6 +14,9 @@ function toggleMenu() {
   menuContainer.classList.toggle('open');
 }
 
+
+
+
 window.onscroll = function() {
   const backToTopButton = document.getElementById('backToTop');
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -51,3 +54,17 @@ document.addEventListener('DOMContentLoaded', function() {
   showLess.addEventListener('click', toggleMoreText);
 });
   
+
+document.getElementById('searchInput').addEventListener('focus', function() {
+  document.getElementById('searchButton').style.display = 'inline-block';
+});
+document.body.addEventListener('click', function(event) {
+  const searchInput = document.getElementById('searchInput');
+  const searchButton = document.getElementById('searchButton');
+
+  // Check if the click event target is not the search input or the search button
+  if (event.target !== searchInput && event.target !== searchButton) {
+      searchButton.style.display = 'none'; // Hide the search button
+      searchInput.value=""
+  }
+});

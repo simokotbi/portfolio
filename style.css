@@ -167,6 +167,9 @@ input:focus
 	animation-iteration-count: infinite;
 	opacity: 1;
 }
+#searchButton{
+    display: none;
+}
 /* cursor annimation */
 .typewriter p {
     /* color: #fff; */
