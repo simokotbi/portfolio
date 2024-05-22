@@ -50,4 +50,4 @@ document.addEventListener('DOMContentLoaded', function() {
   dots.addEventListener('click', toggleMoreText);
   showLess.addEventListener('click', toggleMoreText);
 });
- 
+  
