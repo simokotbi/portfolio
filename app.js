@@ -61,9 +61,9 @@ document.getElementById('searchInput').addEventListener('focus', function() {
 document.body.addEventListener('click', function(event) {
   const searchInput = document.getElementById('searchInput');
   const searchButton = document.getElementById('searchButton');
-
+  const menu=document.getElementById("menu");
   // Check if the click event target is not the search input or the search button
-  if (event.target !== searchInput && event.target !== searchButton) {
+  if (event.target !== searchInput && event.target !== searchButton && event.target !== menu) {
       searchButton.style.display = 'none'; // Hide the search button
       searchInput.value=""
   }
