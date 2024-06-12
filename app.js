@@ -137,3 +137,6 @@ function performSearch(query) {
 
 
 //search functionnalities end
+
+//DISPLAY PROJECTS DINNAMICLY
+//...
