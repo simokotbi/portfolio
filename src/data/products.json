@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Enterprise Web Applications",
+        "description": "Boost your business efficiency with our enterprise web applications. We develop custom applications tailored to your business processes, helping you automate tasks, manage data, and enhance productivity.",
+        "link": "project-one.html",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "image":"./src/portfolio-1.png"
+    },
+    {
+        "id": 2,
+        "title": "Mobile Applications",
+        "description": "Complement your web presence with mobile applications that offer convenience and functionality on the go. Our mobile apps are designed to provide a seamless user experience",
+        "link": "project-two.html",
+        "tags": ["React", "Node.js"],
+        "image":"./src/portfolio-2.png"
+    },
+    {
+        "id": 3,
+        "title": "Static Sites",
+        "description": "static web sites for your small buisisness",
+        "link": "project-two.html",
+        "tags": ["React", "Node.js"],
+        "image":"./src/portfolio-3.png"
+    },
+    {
+        "id": 4,
+        "title": "Web Portal Solutions",
+        "description": "Our web portal solutions are designed to streamline operations and improve user engagement. Whether you need a customer portal, employee portal, or a community portal, we deliver robust platforms that facilitate seamless interactions and information sharing.",
+        "link": "project-two.html",
+        "tags": ["React", "Node.js"],
+        "image":"./src/portfolio-4.png"
+    },
+    {
+        "id": 5,
+        "title": "Enterprise Web Applications",
+        "description": "Boost your business efficiency with our enterprise web applications. We develop custom applications tailored to your business processes, helping you automate tasks, manage data, and enhance productivity.",
+        "link": "project-two.html",
+        "tags": ["React", "Node.js"],
+        "image":"./src/portfolio-5.png"
+    }
+  
+    
+]

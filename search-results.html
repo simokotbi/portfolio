@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="icon" type="image/png" href="./src/icon.png"/>
+        <title>Kotbi - Web Development Services</title>
+        <meta name="description" content="Kotbi offers innovative and responsive web development services. Transform your digital presence with custom-built desktop and WordPress websites.">
+        <meta name="keywords" content="web development, desktop websites, WordPress websites, responsive design, custom web development">
+        
+    </head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-menu d-flex" id="menu">
+                <div class="logo">kotbi</div>
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    ☰
+                </div>
+                <div class="nav-menu-items-container">
+            <div class="nav-menu-items d-flex">
+                <div class="nav-item"><a class=" active" href="./index.html">Home</a></div>
+                <div class="nav-item"><a class="" href="#about-section">About</a></div>
+                <div class="nav-item"><a class="" href="#products-section">Products</a></div>
+                <div class="nav-item"><a class="" href="#contact-us">Contact</a></div>
+                <div class="search">
+                    <form action="search-results.html" id="search-form"  method="get">
+                     search<input type="text" class="search-input" id="searchInput" name="query" method="get"><i></i>
+                     <button type="submit" class="search-button" id="searchButton"><div class="fas fa-search"></div></button>
+                    </form>
+                </div>
+            </div>
+            
+                </div>
+            </nav>
+        </div>
+    </header>
+
+ 
+    
+    <section class="products-section" id="products-section">
+
+        <div class="container">
+            <h1>Search Results</h1>
+            <div id="results-container" class="grid col">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+    </section>
+
+
+    
+    <button id="backToTop" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="app.js"></script>
+     <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/97974f9c24.js"></script>
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</body>
+</html>
